@@ -4,90 +4,151 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!--CSS-->
-    <link rel="stylesheet" href="style.css">
+    <!--Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
-    <title>NONNA PILI</title>
+    <!--CSS-->
+    <link rel="stylesheet" href="./css/style.css">
+
+    <title>NONNA PILI Pastas caseras</title>
 </head>
 <body>
-    <header>
-        <img src="./assets/logos/Nonna Pili-fotor-20240203201734.png" alt="">
-
-        <nav>
+    <header class="menu-navegacion">
+          
+        <!--barra de navegacion superior-->
+        <nav class="menu-color">
+            <div class="info-logo">
+                <!--logo grande en menu superior-->
+                <img src="./assets/logos/Logo_menu.png" alt="Logo de Nonna Pili">
+            </div>
             <ul>
                 <li>
                     <a href="./index.html">HOME</a>
-                </li>
-                <li><a href="./pages/sobre_nosotros.html">NOSOTROS</a>
-                </li>
-                <li><a href="./pages/planes.html">PRODUCTOS</a>
+                <li>
+                <a href="./pages/nosotros.html">NOSOTROS</a>
                 </li>
                 <li>
-                    <a href="./pages/resultados.html">PROMOS</a>
+                    <a href="./pages/productos.html">PRODUCTOS</a>
+                </li>
+                <li>
+                    <a href="./pages/promos.html">PROMOS</a>
+                </li>
+                <li>
+                    <a href="./pages/contacto.html">CONTACTO</a>
+                </li>
+            </ul>
+        </nav>    
+    </header>    
+    <main class="body-home">
+        <!--Contenido principal home-->
+        <article class="body-presentacion"> 
+                       
+            <h1>LAS PASTAS DE MIA NONNA PILI</h1>
+            
+
+            <div class="info-presentacion">
+
+                <img src="./assets/home/plato-sorrentinos.jpg" alt="Plato de pastas">
+                
+                <div class="text-presentacion">
+                    <h2>De los creadores de Restaurante Romagnolo</h2>
+        
+                
+                    <p>Con Rogmanolo pudimos traer grandes costumbres y sabores italianos a nuestra hermosa Cordoba. Hoy nos reinventamos para continuar haciendolo a través de Nonna Pili.Trabajamos con dedicacion y compromiso, para llevar a tu mesa productos de excelentisima calidad para que disfrutes cada plato de una manera unica</p>
+                </div>
+            </div>
+        </article>
+
+        <article class="images-body">
+
+            <!--imagenes HOME-->
+            <img src="./assets/home/italianrest.jpg" alt="Restaurante Romagnolo, Cordoba Capital">
+
+            <img src="./assets/home/romagnolo-frente.jpeg" alt="Fachada de Restaurante Romagnolo">
+        
+            <img src="./assets/home/lasagna_index.jpg" alt="Lasagna hecha en casa">
+
+        </article> 
+        
+
+    </main>
+    <section class="info-flex">
+        
+            <!--cards de cada articulo-->
+            <!--textos HOME-->
+            <article class="info-section">
+                <h2 class="title-info">COMIDA CON HISTORIA
+                </h2>
+                <p>Nuestros productos estan hechos con las recetas de nuestra familia siguiendo las tradiciones italianas e ingredientes de primera calidad, con la esencia de platos increibles como los de RomagnoloAqui te ofrecemos una amplia variedad de pastas caseras frescas y 
+                deliciosas, elaboradas con ingredientes de alta calidad. Los clientes 
+                pueden explorar un catálogo en línea que incluye opciones como pasta 
+                fresca, rellena, y opciones sin gluten</p>
+            </article>
+            <article class="info-section">
+            <h2 class="title-info"> DE NUESTRA COCINA A TU MESA</h2>
+            <p>Te invitamos a probarlos y vivir la experiencia de disfrutar un plato hecho con 
+            amor e historia</p>
+
+            <p>Nuestros servicios también incluyen la posibilidad de realizar pedidos en línea, con opciones de entrega a domicilio o recogida en tienda. El proceso de pedido es fácil y seguro, 
+            permitiendote personalizar tu selección de pastas y agregar complementos 
+            como salsas gourmet o condimentos especiales.</p>
+            </article>
+    </section>
+    <footer class="menu-navegacion">
+        <!--redes sociales-->
+        <div class="links-footer">
+            <!--link a FB Nonna Pili-->
+            <img src="./assets/logos/facebook.png" alt="Logo Facebook">
+            <p>Nonna Pili</p>
+            <link rel="stylesheet" href=""> 
+                
+            <!--link a IG Nonna Pili-->
+            <img src="./assets/logos/instagram.jpeg" alt="Logo Instagram">
+            <p>@nonnapili</p>
+            <link rel="stylesheet" href=""> 
+                
+            <!--link a chat de WPP-->
+            <img src="./assets/logos/whatsapp.jpeg" alt="Logo Whatsapp">
+            <p>Nonna Pili</p> 
+            <link rel="stylesheet" href=""> 
+        </div>
+        <div class="info-logo">    
+            <img src="./assets/logos/2.png" alt="Logo Nonna">
+        </div>
+            
+
+        <!--navbar footer-->
+        <nav class="menu-color">
+            <ul>
+                <li>
+                    <a href="./index.html">HOME</a>
+                <li>
+                    <a href="./pages/nosotros.html">NOSOTROS</a>
+                </li>
+                <li>
+                    <a href="./pages/productos.html">PRODUCTOS</a>
+                </li>
+                <li>
+                    <a href="./pages/promos.html">PROMOS</a>
                 </li>
                 <li>
                     <a href="./pages/contacto.html">CONTACTO</a>
                 </li>
             </ul>
         </nav>
-    </header>
-    <main>
-        <!--encabezado HOME-->
-        <img src="./assets/home/plato_sorrentinos.jpg" alt="">
-        
-
-        <h1>LAS PASTAS DE MIA NONNA PILI</h1>
-        <h2>De los creadores de Restaurante Romagnolo</h2>
-        <h3>Con Rogmanolo pudimos traer grandes costumbres y sabores italianos a nuestra hermosa Cordoba. Hoy nos reinventamos para continuar haciendolo a través de Nonna Pili</h3>
-
-        <section>
-            <!--imagenes HOME-->
-            <img src="./assets/home/italianrest.jpg" alt="">
-
-            <img src="./assets/home/lasagna_index.jpg" alt="">
-
-            <img src="./assets/home/resto_dos.jpeg" alt="">
-
-            <!--textos HOME-->
-            <p>Nuestros productos estan hechos con las recetas de nuestras propias madres y abuelas italianas, creadores de platos increibles como los de Romagnolo</p>
-
-            <p>Te invitamos a probarlos para vivir la experiencia de disfrutar un plato hecho con amor e historia</p>
-
-        </section>
-        
-    </main>
-    <footer>
-        <img src="./assets/logos/facebook.png" alt="">
-        <p>Nonna Pili</p>
-        <link rel="stylesheet" href=""> <!--link a FB Nonna Pili-->
-
-        <img src="./assets/logos/instagram.jpeg" alt="">
-        <p>@nonnapili</p>
-        <link rel="stylesheet" href=""> <!--link a IG Nonna Pili-->
-
-        <img src="./assets/logos/whatsapp.jpeg" alt="">
-        <p>Nonna Pili</p> 
-        <link rel="stylesheet" href=""> <!--link a chat de WPP-->
-
-        <img src="./assets/logos/2.png" alt="">
-       
-        <nav>
-            <ul>
-                <li>
-                    <a href="../index.html">HOME</a>
-                </li>
-                <li><a href="./pages/nosotros.html">Nosotros</a>
-                </li>
-                <li><a href="./pages/productos.html">Productos</a>
-                </li>
-                <li>
-                    <a href="./pages/promos.html">Promos</a>
-                </li>
-                <li>
-                    <a href="./pages/contacto.html">Contacto</a>
-                </li>
-            </ul>
-        </nav>
-    </footer>    
+    </footer>  
+    <!--Scrips-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    
 </body>
+
+
 </html>

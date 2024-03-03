@@ -1,0 +1,145 @@
+/* Reset 
+
+*/
+
+*{
+    font-size: 20px;
+    font-family: "Ubuntu", sans-serif;
+}
+
+
+/* Navbar - header y footer */
+.menu-navegacion {
+    background-color: #6b0604c5;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.menu-navegacion img{
+    margin-top: 0%;
+    margin-left: 0%;
+    
+}
+
+.info-logo{
+    display: inline;
+}
+
+.menu-color{
+    padding-top: 10px;
+    padding-right: 10px;
+    display: inline;
+}
+
+
+.menu-color ul{
+    margin-top: 5px;
+    margin-right: 5px;
+    display: inline-flex;       
+}
+
+.menu-color li{
+    list-style: none;
+    background-color:#6B0504;
+    border-radius: 6px;
+    border: 1px;
+    border-color: #FAFAFA;
+    border-style:groove;
+    margin: 5px;
+    padding: 5px;    
+}
+
+
+.menu-color li a{
+    color: #FAFAFA;
+    text-decoration: none;
+    font-size: medium;
+    font-weight: 600;
+}
+
+/* ======== Home ======== */
+
+
+.body-presentacion h1{
+    color: #ffffff;
+    background-color: #6B0504;
+    width: 100%;
+    text-align: center;
+    font-size: 60px;
+}
+
+.text-presentacion{
+    display: block;
+    text-align: center;
+    margin-top: 7%;
+}
+
+.info-presentacion {
+    display: inline-block;
+    text-align: left;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.info-presentacion img{
+    width: 30%;
+    float: right;
+    margin: 20px;
+
+}
+
+.body-presentacion h2{
+    color:#6B0504;
+    font-size: 40px;
+}
+
+.images-body img{
+    width: 28%;
+    margin: 3% 2% 3% 2%;
+    display: inline;
+    justify-content: space-evenly;
+
+}
+.images-body{
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    
+}
+
+.info-section {
+    text-align: justify;
+    width: 35%;
+    background-color: #fef5ab;
+    border-radius: 0.5em;
+    margin-bottom: 1rem;
+    height: 27rem;
+    padding: 1rem;
+    margin-right: 2rem;
+    flex-flow: wrap;
+}
+
+
+.info-flex{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+    grid-area: section;
+    flex-flow: wrap;
+}
+
+.title-info {
+    color:#0C7C59;
+    font-size: 2em;
+    text-align: center;
+}
+
+
+/* MEDIA QUERIES mobile
+
+desktop a mobile max-width 
+tablet @media tablet 481px-768px
+mobile @media mobile  320px -480px
+
+*/
+ 

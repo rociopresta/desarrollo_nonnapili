@@ -3,13 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+     <!--CSS-->
+     <link rel="stylesheet" href="../css/style.css">
+    
+    <title>NONNA PILI Pastas caseras</title>
 </head>
 <body>
-    <header>
-        <img src="../assets/logos/Nonna Pili-fotor-20240203201734.png" alt="">
+    <header class="menu-navegacion">
+        <img src="../assets/logos/Logo_menu.png" alt="">
       
-        <nav>
+        <nav class="menu-color">
             <ul>
                 <li>
                     <a href="../index.html">HOME</a>
@@ -28,58 +31,113 @@
         </nav>
 
     </header>
-    <main>
+    <main class="info-section">
         <h1>COMUNICATE CON NOSOTROS</h1>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d54483.82319045201!2d-64.23954392089844!3d-31.407542000000017!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x943299ce0646d9c5%3A0x2dc7f2e299b8afc1!2sAstrid%20Training%20Center!5e0!3m2!1ses-419!2sar!4v1705373409177!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
-        <h2>SEGUI LOS PASOS Y COMUNICATE</h2>
-        <P>PASO N° 1</P>
-        <P>PASO N° 2</P>
-        <P>PASO N° 3</P>
-        <P>PASO N° 4</P>
-    
-        <section>
-            <img src="/assets/INDEX1.jpeg" alt="">
+        <h2>Hace tu pedido por nuestras redes y te lo llevamos a tu casa</h2>
 
-        </section>
-        <section>
-            
-        </section>
+        <h3>Gracias por visitar nuestro sitio web. Estamos 
+            aquí para responder tus preguntas, atender tus 
+            comentarios y ayudarte en lo que necesites. No 
+            dudes en ponerte en contacto con nosotros a través 
+            de los siguientes medios</h3>
+
+        <h2>Direccion</h2>
+        <p>Calle Italia, 123
+            Ciudad Pasta Bella
+            Código Postal: 12345</p>
+        
+            <h2>Telefono</h2>
+            <p>(+123) 456-7890</p>
+
+            <h2>Horario de Atencion</h2>
+            <p>Lunes a Viernes: 9:00 AM - 6:00 PM
+                Sábado: 10:00 AM - 3:00 PM
+                Domingo: Cerrado</p>
+
+            <h2>Formulario de contacto</h2>
+            <p>Si prefieres, también puedes completar el formulario de contacto a continuación. Nos pondremos en contacto contigo lo antes posible
+            </p>
+        
+    <table>
+        <tr>
+            <td>
+                Fecha
+            </td>
+            <td>
+                Nombre
+            </td>
+            <td>
+                Direccion
+            </td>
+        </tr>
+    </table>
+
+    <form action="form.php" method="post">
+        <label for="">Nombre y apellido</label>
+        <input type="text" name="Nombre" id="nombre" placeholder="Ro Presta">
+
+        <label for="">Contraseña</label>
+        <input type="password" name="" id="">
+
+        <select name="" id="">
+            <option value="Consulta de precios y stock"></option>
+            <option value="Compras y envios"></option>
+        </select>
+
+        <p>comentarios</p>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+
+        <p>Acepto los terminos y condiciones</p>
+        <input type="checkbox" name="" id="">
+        <input type="submit" value="Enviar">
+
+    </form>
 
     </main>
-    <footer>
-        <img src="./assets/logos/facebook.png" alt="">
-        <p>Nonna Pili</p>
-        <link rel="stylesheet" href=""> <!--link a FB Nonna Pili-->
-
-        <img src="./assets/logos/instagram.jpeg" alt="">
-        <p>@nonnapili</p>
-        <link rel="stylesheet" href=""> <!--link a IG Nonna Pili-->
-
-        <img src="./assets/logos/whatsapp.jpeg" alt="">
-        <p>Nonna Pili</p> 
-        <link rel="stylesheet" href=""> <!--link a chat de WPP-->
-
-        <img src="./assets/logos/2.png" alt="">
-       
-        <nav>
+    <footer class="menu-navegacion">
+        <div class="links-footer">
+            <!--link a FB Nonna Pili-->
+            <img src="../assets/logos/instagram.jpeg" 
+            alt="Logo Facebook">
+            <p>Nonna Pili</p>
+            <link rel="stylesheet" href=""> 
+            
+            <!--link a IG Nonna Pili-->
+            <img src="../assets/logos/whatsapp.jpeg" alt="Logo Instagram">
+            <p>@nonnapili</p>
+            <link rel="stylesheet" href="">
+            
+            <!--link a chat de WPP-->
+            <img src="../assets/logos/whatsapp.jpeg" 
+            alt="Logo Whatsapp">
+            <p>Nonna Pili</p> 
+            <link rel="stylesheet" href=""> 
+        
+        <div class="info-logo">
+            <img src="../assets/logos/2.png" alt="Logo Nonna">
+        </div>
+        </div>
+        <!--navbar footer-->
+        <nav class="menu-color">
             <ul>
                 <li>
                     <a href="../index.html">HOME</a>
                 </li>
-                <li><a href="./pages/nosotros.html">Nosotros</a>
-                </li>
-                <li><a href="./pages/productos.html">Productos</a>
+                <li>
+                    <a href="./nosotros.html">NOSOTROS</a>
                 </li>
                 <li>
-                    <a href="./pages/promos.html">Promos</a>
+                    <a href="./productos.html">PRODUCTOS</a>
                 </li>
                 <li>
-                    <a href="./pages/contacto.html">Contacto</a>
+                    <a href="./promos.html">PROMOS</a>
+                </li>
+                <li>
+                    <a href="./contacto.html">CONTACTO</a>
                 </li>
             </ul>
         </nav>
-
     </footer>
 </body>
 </html>
